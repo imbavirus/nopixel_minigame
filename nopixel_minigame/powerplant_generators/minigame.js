@@ -34,11 +34,21 @@ const getDifficulty = () => {
     
     switch(difficulty_selected){
         case 'easy':
-            return ["asd", 2000, 1000, 'easy'];
+            return ["asdw", 1200, 500, 'easy'];
         case 'medium':
-            return ["asdjkl", 1500, 750, 'medium'];
+            return ["awsdjikl", 1200, 500, 'medium'];
         case 'hard':
             return ["awsdgjikl", 1200, 500, 'hard'];
+        case 'easys':
+            return ["asdw", 1500, 750, 'easys'];
+        case 'mediums':
+            return ["awsdjikl", 1500, 750, 'mediums'];
+        case 'hards':
+            return ["awsdgjikl", 1500, 750, 'hards'];
+        case 'extrahard':
+            return ["awsdfhgjikl", 1000, 400, 'extrahard'];
+        case 'extrahards':
+            return ["awsdfhgjikl", 1200, 500, 'extrahards'];
     }
 }
 
